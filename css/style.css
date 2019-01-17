@@ -74,6 +74,10 @@ body {
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
+  
+}
+#page-header .fas{
+  color: #eee;
 }
 
 .about-img {
@@ -99,6 +103,86 @@ body {
   color: #fff;
 }
 
+<<<<<<< HEAD
+#contact{
+
+  background: url("../img/bimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section{
+  background: url("../img/bimg2.jpg");
+}
+
+#contact .box{
+  position:relative;
+  width: 300px;
+  height:100px;
+  box-sizing:border-box;
+  text-align:center;
+  margin:0 10px;
+  background:white;
+  overflow:hidden;
+  border-radius:4px;
+  box-shadow:0 0 0 2px rgba(0,7,10,1);
+}
+#contact .box .icon{
+  width:100%;
+    height:100%;
+    background:white;
+    transition: 0.5s;
+}
+#contact .box .icon .fa {
+  font-size: 4em;
+    line-height:100px;
+    color:black;
+} 
+#contact .box:hover .icon {
+  transform:scale(0);
+}
+#contact.container{
+  width:900px;
+  margin:250px auto 0;
+  display:flex;
+}
+#contact .py-3{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  background:white;
+}
+#contact .box .details{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#03a9f4;
+  transition:0.5s;
+  transform:scale(2);
+  opacity:0;
+}
+#contact .box:hover .details{
+  transform: scale(1);
+  opacity: 1;
+}
+#contact .box:hover .details h3{
+  margin:0;
+  padding:0;
+  line-height:100px;
+  font-size:24px;
+  color:#fff;
+}
+#contact .box .details:nth-child(2) .details {
+  background:#e91e63;
+}
+#contact  .box .details:nth-child(2) .details {
+  background:#607d8b;
+}
+#main-footer{
+  background-color: #607d8b;
+=======
 #productsheader{
   font-family: 'Playfair Display', serif;
+>>>>>>> master
 }
