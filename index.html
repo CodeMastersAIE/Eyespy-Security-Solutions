@@ -38,6 +38,18 @@
           <li class="nav-item">
             <a href="contact.html" class="nav-link">Contact</a>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Offers
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="solutions.html">Solutions We Offer</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="installation.html">CCTV Installation</a>
+              <a class="dropdown-item" href="maintenance.html">CCTV Maintenance</a>
+            
+          </div>
+          </li>
         </ul>
       </div>
     </div>
@@ -128,7 +140,7 @@
                 <br>
               <h4 class="text-primary">Interested in Our Solutions ?</h4>
                 <p> we will survey and give you a bespoke solution.</p>
-                <a class="btn btn-primary" target="_blank" href="#">Let's go!</a>
+                <a class="btn btn-primary" target="_blank" href="solutions.html">Let's go!</a>
               </div>
       </div>
     </div>
@@ -173,7 +185,7 @@
       <div class="row">
         <div class="col">
           <div class="container p-5">
-            <a href="#" class="video" data-video="//www.youtube.com/watch?v=M3Qd6WPj2C0&t=337s" data-toggle="modal" data-target="#videoModal">
+            <a href="#" class="video" data-video="https://www.youtube.com/embed/ML_Z4l0s24g?list=LLFQJdhtwmnwcSLTQskbWlfQ" data-toggle="modal" data-target="#videoModal">
               <i class="fas fa-play fa-3x"></i>
             </a>
           <h1>See What We Do</h1>
@@ -356,7 +368,7 @@
           <button class="close" data-dismiss="modal">
             <span>&times;</span>
           </button>
-          <iframe src="//www.youtube.com/watch?v=M3Qd6WPj2C0&t=337s" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -391,6 +403,8 @@
     // Video Play
     $(function () {
       // Auto play modal video
+      $(function () {
+      // Auto play modal video
       $(".video").click(function () {
         var theModal = $(this).data("target"),
           videoSRC = $(this).attr("data-video"),
@@ -401,6 +415,7 @@
         });
       });
     });
+  
 
   </script>
 </body>
